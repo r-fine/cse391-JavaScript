@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Index</title>
+</head>
+
+<body>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#hero">Converter</a></li>
+            <li><a href="#series">Series</a></li>
+            <li><a href="#magic">Text Magic</a></li>
+            <li><a href="#quote">Quote Box</a></li>
+        </ul>
+    </nav>
+    <p id="top"></p>
+    <!--=============================== PART 1.2 ====================================-->
+    <section>
+        <h1 id="hero">Hero Converter</h2>
+            <h3>Convert <input class="converter" type="text" id="part1">
+                <select>
+                    <option id="lbToKg">lb to kg</option>
+                    <option id="kgToLb">kg to lb</option>
+                </select></h3><input type="button" class="button button-outline" value="Convert" onclick="converter()">
+            <p>
+                <h5>Result: <span class="res" id="converter">N/A</span></h5>
+            </p>
+    </section>
+
+
+    <!--=============================== PART 2 ====================================-->
+
+    <section>
+        <h1 id="series">Series</h2>
+            <h3>Input series of Number:</h3> <input class="series" type="text" id="part2" oninput="calculateSeries()"
+                placeholder="e.g. 45,78,9,11,36,65,4">
+            <p>
+                <h5>Max: <span class="res" id="max">N/A</span>
+            </p>
+            </h5>
+            <p>
+                <h5>Min: <span class="res" id="min">N/A</span>
+            </p>
+            </h5>
+            <p>
+                <h5>Sum: <span class="res" id="sum">N/A</span>
+            </p>
+            </h5>
+            <p>
+                <h5>Average: <span class="res" id="avg">N/A</span>
+            </p>
+            </h5>
+            <p>
+                <h5>Reverse Order: <span class="res" id="rev">N/A</span>
+            </p>
+            </h5>
+    </section>
+
+    <!--=============================== PART 3 ====================================-->
+
+    <section>
+        <h1 id="magic">Magic!</h2>
+            <form name="magicform">
+                <textarea id="part3" rows=20 cols=60 placeholder="e.g.
+                
+Sample Line 1
+
+Sample Line 2
+Sample Line 3
+Sample Line 1
+Sample Line 5   
+
+
+Sample Line 6 
+Sample Line 7
+
+Sample Line 8">
+</textarea>
+            </form>
+            <input class="button button-outline" type="button" value="Clear It" onclick="eraseText()">
+            <input class="button button-outline" id="capitalize" type="button" value="Capitalize"
+                onclick="capitalizeText()">
+            <input class="button button-outline" id="noncapitalize" style="display: none;" type="button"
+                value="Capitalize" onclick="nonCapitalizeText()">
+            <input class="button button-outline" type="button" value="Sort" onclick="sortLines()">
+            <input class="button button-outline" type="button" value="Reverse" onclick="reverseLines()">
+            <input class="button button-outline" type="button" value="Strip Blank" onclick="stripBlank()">
+            <input class="button button-outline" type="button" value="Add Numberes" onclick="addNumber()">
+            <input class="button button-outline" type="button" value="Shuffle" onclick="shuffleLines()">
+    </section>
+
+    <!--=============================== PART 1.1 ====================================-->
+
+    <div class="quote-box" id="quote">
+
+    </div>
+    <div class="container">
+        <button onclick="changeColor(0)" class="skyblue"> </button>
+        <button onclick="changeColor(1)" class="coral"> </button>
+        <button onclick="changeColor(2)" class="orange"> </button>
+        <button onclick="changeColor(3)" class="aqua"> </button>
+    </div>
+
+    <div>
+        <p>
+            <a href="#top">
+                <h7>Back To Top</h7>
+            </a>
+        </p>
+    </div>
+    <footer class="footer">
+        <div>
+            <p>Copyright &copy; www.mywebsite.com 2021</p>
+        </div>
+    </footer>
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,168 @@
+html {
+  scroll-padding-top: 145px;
+}
+
+body {
+  text-align: center;
+  background-color: beige;
+}
+
+.quote-box {
+    text-align: center;
+    border: 8px solid rgb(119, 119, 119);
+    padding: 20px;
+    margin: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+.container {
+    text-align: center;
+}
+
+.orange {
+    background-color: orange;
+    padding: 22px;
+    margin:10px;
+    margin-bottom: 50px;
+    text-align: center;
+    float: center;  
+    color: red;
+    border: 3px solid green;
+    font-size: 14px;
+}
+
+.coral {
+    color: rgb(255, 127, 80);
+    float: center;
+    padding: 22px;
+    margin:10px;
+    border: 3px solid blue;
+    font-size: 14px;
+    background-color: coral;
+}  
+
+.aqua {
+    color: black;
+    background-color: aqua;
+    padding: 22px;
+    margin:10px;
+    float: center;
+    border: 3px solid red;
+    font-size: 14px;
+  }
+
+.skyblue {
+    color: khaki;
+    background-color: #0099ff;
+    padding: 22px;
+    margin:10px;
+    float: center;  
+    border: 3px solid grey;
+    font-size: 14px;
+}
+
+.footer {
+  background-color: grey;
+  padding: 30px 0;
+  font-size: 32;
+  color: white;
+  height: 65px;
+}
+
+input.series {
+  width: 50%;
+  background-color: #f4f4f4;
+  color: red;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input.converter {
+  width: 7%;
+  background-color: #f4f4f4;
+  color: red;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button {
+  color: black;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-top: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-outline:hover {
+  background-color: crimson;
+  color: white;
+}
+
+select, option {
+  padding: 8px;
+  margin-right: 5px;
+  font-size: 16px;
+  color: blue;
+}
+
+h1 {
+  color: maroon;
+  font-size: 32px;
+}
+
+h3 {
+  color: rgb(76, 63, 255);
+}
+
+h5 {
+  color: darkslateblue;
+  font-size: 18px;
+}
+
+.res{
+  color: crimson;
+}
+section {
+  border: 2px solid orange;
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+.main-nav {
+  background-color: #ffcd62;
+  padding: 10px;
+  position: sticky;
+  top: 1px;
+}
+nav ul {
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav li {
+  width:25%;
+  display: inline-block;
+  font-size: 25px;
+}
+nav li a {
+  text-decoration: none;
+  color: #ff3535
+}
